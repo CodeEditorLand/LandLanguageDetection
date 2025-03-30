@@ -1,6 +1,28 @@
 {
 	"name": "@codeeditorland/languagedetection",
+	"version": "0.0.1",
+	"private": false,
 	"description": "An npm package that uses guesslang's ML model to detect source code languages",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandLanguageDetection#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandLanguageDetection/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandLanguageDetection.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "dist/lib/index.js",
 	"module": "dist/lib/index.js",
 	"types": "dist/lib/index.d.ts",
@@ -11,10 +33,11 @@
 		"clean": "rimraf dist",
 		"compile": "npm run clean && webpack --mode production",
 		"prepack": "npm run compile",
-		"prepublishOnly": "npm test && npm run compile"
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@tensorflow/tfjs-backend-cpu": "4.22.0",
 		"@tensorflow/tfjs-converter": "4.22.0",
 		"@tensorflow/tfjs-core": "4.22.0",
@@ -25,5 +48,8 @@
 		"npm-run-all": "4.1.5",
 		"rimraf": "6.0.1",
 		"ts-loader": "9.5.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
