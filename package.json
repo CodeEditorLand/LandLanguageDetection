@@ -37,7 +37,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@tensorflow/tfjs-backend-cpu": "4.22.0",
 		"@tensorflow/tfjs-converter": "4.22.0",
 		"@tensorflow/tfjs-core": "4.22.0",
