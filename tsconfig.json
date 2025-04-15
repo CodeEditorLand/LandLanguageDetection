@@ -19,6 +19,7 @@
 	"extends": "@playform/build/tsconfig",
 	"include": [
 		"lib/**/*.ts",
+		"src",
 		"src"
 	]
 }
