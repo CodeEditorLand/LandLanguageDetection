@@ -21,6 +21,7 @@
 		"lib/**/*.ts",
 		"src",
 		"src",
+		"src",
 		"src"
 	]
 }
